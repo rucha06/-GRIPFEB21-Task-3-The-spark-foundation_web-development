@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>About us</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body{
+      background-image:url('exp.jpeg');
+
+      background-size:cover;
+
+      background-repeat: no-repeat;
+    }
+
+
+
+    .sectiontitle {
+
+      color:white;
+      width: 300px;
+      border-bottom: 3px solid red;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 200;
+      margin: 0 auto 50px;
+      position: relative;
+      padding: 10px 0;
+      text-transform: uppercase;
+    }
+
+    .section::after {
+      display: inline-block;
+      content: "";
+      height: 15px;
+      width: 15px;
+      background-color: cornflowerblue;
+      position: absolute;
+      left: calc(50%-10px);
+      top: calc(75%-7);
+      transform: rotateX(45deg) translate(50%, 50%);
+      border: 3px solid palegreen;
+
+    }
+
+    section {
+      padding: 100px 0;
+
+    }
+
+    .donationbox {
+
+      color:white;
+
+      border: 2px solid black;
+      margin: 10px 10px;
+      padding: 10px 10px;
+      width: 500px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 50px;
+      position: relative;
+      height: 345px;
+
+    }
+
+    .Volunteerbox {
+      border: 2px solid black;
+      margin: 10px 10px;
+      padding: 10px 10px;
+      width: 500px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      position: absolute;
+      top: 273px;
+      right: 117px;
+      height: 345px;
+
+      color:white;
+
+    }
+
+
+    .title {
+      width: 350px;
+      background-color:black;
+      padding: 35px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="fullcontainer" id="aboutsection">
+
+    <div class="container">
+      <h2 class="sectiontitle">
+        ABOUT US
+      </h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus et maiores quos ex debitis minus facilis
+        tempora perspiciatis fugit, voluptatum, esse fuga soluta eius nostrum deserunt, ab illum dolor dolorum. Neque
+        excepturi fuga sit hic aperiam explicabo modi minus voluptatel. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Et, ratione provident similique laborum quae amet neque nihil tenetur, quo harum labore, animi
+        delectus? Aut, perferendis commodi numquam quo at blanditiis.</p>
+    </div>
+
+    <div class="cards">
+      <div class="donationbox">
+        <div class="title">Give donation</div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque dolor mollitia fugiat, consequatur
+          consectetur doloremque ea, culpa suscipit tempora iure incidunt laborum? Quo sit ipsam nulla, ratione
+          blanditiis dolorum iure nemo quidem placeat est incidunt enim velit veritatis cum necessitatibus omnis saepe
+          similique voluptate eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab repellendus
+          soluta! Magni veniam assumenda modi quisquam enim non quod corporis, dicta, nam asperiores nobis repellendus,
+          earum facere ipsam delectus!</p>
+
+        <button><a href="donate.html" target="_blank">Donate now</a></button>
+      </div>
+
+      <div class="Volunteerbox">
+        <div class="title">VOLUNTEER</div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque dolor mollitia fugiat, consequatur
+          consectetur doloremque ea, culpa suscipit tempora iure incidunt laborum? Quo sit ipsam nulla, ratione
+          blanditiis dolorum iure nemo quidem placeat est incidunt enim velit veritatis cum necessitatibus omnis saepe
+          similique voluptate eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab repellendus
+          soluta! Magni veniam assumenda modi quisquam enim non quod corporis, dicta, nam asperiores nobis repellendus,
+          earum facere ipsam delectus!</p>
+
+        <button>Become volunteer now</button>
+
+      </div>
+
+  </section>
+</body>
+
+</html>
